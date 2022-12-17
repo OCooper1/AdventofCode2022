@@ -11,7 +11,7 @@ public class Main {
         int[] topThree = new int[3];
         int topThreeTotal = 0;
         try {
-            File myObj = new File("resources/input.txt");
+            File myObj = new File("Day1/resources/input.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String line = myReader.nextLine();
